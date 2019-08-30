@@ -1,0 +1,11 @@
+1.scrapy startproject aaa
+
+2.在items.py中定义需要爬取的数据字段
+
+3.在终端中进入aaa,执行scrapy genspider bbb(这里应该在aaa中的aaa里)  地址
+
+4.setting中释放 ITEM_PIPELINES
+
+5.执行爬虫：在终端中进入aaa scrapy crawl bbb
+
+6.根目录下新建main文件

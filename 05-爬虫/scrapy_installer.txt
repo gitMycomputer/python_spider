@@ -1,0 +1,2 @@
+cd到文件路径
+pyinstaller -F -w filename
